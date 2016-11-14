@@ -15,7 +15,7 @@ year=year(run_year);
 call symputx("year",year);
 run;
 
-libname CSRDEV "G:\Gangadhar\CSRDEV\Corporate uploads";
+libname CSRDEV "G:\New_Project _1\CSRDEV\Corporate uploads";
 %let CSRDEV=G:\Gangadhar\CSRDEV\Corporate uploads;
 %put &csrdev;
 proc import datafile="G:\Gangadhar\CSRDEV\Corporate uploads\uploads.xls"
