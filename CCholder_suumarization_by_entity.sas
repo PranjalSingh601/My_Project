@@ -1,4 +1,4 @@
-libname MBRDEV "G:\Gangadhar\MBRDEV";
+libname MBRDEV "G:\New_Project\MBRDEV";
 
 %let month=%sysfunc(substr(&sysdate,3,3));
 %let run_month=%sysfunc(propcase(&month));
