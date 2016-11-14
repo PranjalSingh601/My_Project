@@ -11,7 +11,7 @@ call symputx ("yearmonth",year_month);
 run;
 %put &yearmonth;
 
-libname CSRDEV "G:\Gangadhar\CSRDEV";
+libname CSRDEV "G:\New_project_2\CSRDEV";
 %let CSRDEV=G:\Gangadhar\CSRDEV ;
 %put &csrdev;
 
